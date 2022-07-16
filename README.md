@@ -25,6 +25,10 @@ cd Elysium-commandName
 
 ```npx locklift init --path amazing-locklift-project```
 
+5. move to amazing-locklift-project
+
+```cd amazing-locklift-project```
+
 ## Build solidity project
 
 ```npx locklift build```
