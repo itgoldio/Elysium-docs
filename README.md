@@ -73,7 +73,8 @@ Change ```locklift.config.ts```
         // Check if you need provide custom giver
         giverFactory: (ever, keyPair, address) => new GiverWallet(ever, keyPair, address),
         address: "0:77ac4648f0c99014832e678047a7c4eed6ae4e8c806de3a8a1b90177a91cc111",
-        key: "SEED PHRASE",
+        phrase: "",
+        accountId: 0,
       },
       keys: {
         // Use everdev to generate your phrase
